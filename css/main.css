@@ -1,7 +1,7 @@
 @font-face { font-family: Avenir Roman; src: url('../assets/Avenir-Roman.ttf'); } 
-@font-face { font-family: Arial Black; src: url('../assets/Arial_Black.ttf'); } 
 @font-face { font-family: Avenir Black; src: url('../assets/Avenir_Black.ttf'); } 
 body {margin: 0; padding: 0; font-size: 30px;}
+a.maillink {color: #fff; text-decoration: none;}
 .row {width: 100%; margin: 0; padding: 0; overflow: hidden;}
 .darkblue {background-color: #002743;}
 .lightblue {background-color: #4187a9;}
@@ -51,15 +51,7 @@ img {display: block;}
 	text-align: center;
 	font-family: 'AvenirRoman', sans-serif; 
 }
-.commitment p {
-	margin: 0 auto;
-	width: 70%;
-	text-align: center;
-	line-height: 180%;
-	color: rgba(0,0,0,0.7);
-	font-family: 'Avenir Roman', sans-serif; 
-	font-size: 26px;
-}
+
 .hgv {width: 100%;}
 .image2flex {
 	display: flex;
@@ -108,6 +100,15 @@ img {display: block;}
 
 @media (max-width: 900px) {
 img.toplogo {width: 50%; margin: 34px auto 29px auto;}
+.commitment p {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	line-height: 180%;
+	color: rgba(0,0,0,0.9);
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 20px;
+}
 .telflex {display: flex; flex-direction: row-reverse; justify-content: flex-start; align-items: center; font-family: Avenir Black, sans-serif; color: #fff; font-size: 3.5vw; }
 .ftrcrd {
 	margin-top: 30px;
@@ -137,6 +138,15 @@ img.footerlogo {width: 90%;}
 @media (min-width: 900px) {
 img.toplogo {width: 26%; margin: 34px 20px 29px 90px;}
 .telflex {display: flex; flex-direction: row-reverse; justify-content: flex-start; align-items: center; font-family: Avenir Black, sans-serif; color: #fff; font-size: 1.8vw; }
+.commitment p {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	line-height: 180%;
+	color: rgba(0,0,0,0.7);
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 26px;
+}
 .ftrcrd {
 	margin-top: 30px;
 	font-family: 'Avenir Roman', sans-serif; 
