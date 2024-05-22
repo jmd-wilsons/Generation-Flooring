@@ -1,0 +1,163 @@
+@font-face { font-family: Avenir Roman; src: url('../assets/Avenir-Roman.ttf'); } 
+@font-face { font-family: Arial Black; src: url('../assets/Arial_Black.ttf'); } 
+@font-face { font-family: Avenir Black; src: url('../assets/Avenir_Black.ttf'); } 
+body {margin: 0; padding: 0; font-size: 30px;}
+.row {width: 100%; margin: 0; padding: 0; overflow: hidden;}
+.darkblue {background-color: #002743;}
+.lightblue {background-color: #4187a9;}
+.yellow {background-color: #ffbf00;}
+.yellowt {color: #ffbf00;}
+img {display: block;}
+
+
+.envelope {width: 100%; max-width: 40px; margin: 0 30px 0 30px;}
+.sffd {background-image: url('../images/generation-flooring-room-set-laminate.jpg'); background-size: 100% auto; display: flex; align-items: center; justify-content: center; background-repeat: no-repeat;}
+.sffd h1 {
+	margin: 35% auto 4.5%;
+	color: #fff;
+	font-family: 'Avenir Black', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 110%;
+	text-shadow: 1px 1px 3px #666;
+}
+.deliver {
+	padding: 65px 0;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+.deliveredh {
+	text-align: center; 
+	font-size: 42px; 
+	font-family: 'Avenir Black', sans-serif; 
+	color: #fff;
+	margin: 0;
+	}
+.delivered {
+	text-align: center; 
+	font-size: 24px; 
+	font-weight: normal;
+	line-height: 160%;
+	font-family: 'Avenir Roman', sans-serif; 
+	color: rgba(255,255,255,0.9);
+	margin: 30px auto;
+	width: 60%;
+
+}
+.commitment {
+	padding: 65px 0;
+	margin: 0;
+	text-align: center;
+	font-family: 'AvenirRoman', sans-serif; 
+}
+.commitment p {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	line-height: 180%;
+	color: rgba(0,0,0,0.7);
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 26px;
+}
+.hgv {width: 100%;}
+.image2flex {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: space-around;
+	margin: 20px 0;
+}
+.image2flex div {width: 48%;}
+.image2flex img {width: 100%;}
+.wedeliver {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+	}
+.wedeliver h2 {
+	text-align: left; 
+	font-size: 6vw; 
+	line-height: 100%;
+	font-family: 'Avenir Black', sans-serif; 
+	color: #fff;
+	padding-left: 90px;
+}
+.wedeliverflex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px 20px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+.wedeliverflex img {width: 100%;}
+.footer {
+	padding: 100px 80px;
+	background-image: url(../images/generation-flooring-circle-logo.png);
+	background-repeat: no-repeat;
+	background-position: 110% -40%;
+	background-size: 600px 600px;
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 30px; 
+	color: #fff;
+	line-height: 100%;
+}
+.footermail img {width: 50px; height: 40px;}
+
+@media (max-width: 900px) {
+img.toplogo {width: 50%; margin: 34px auto 29px auto;}
+.telflex {display: flex; flex-direction: row-reverse; justify-content: flex-start; align-items: center; font-family: Avenir Black, sans-serif; color: #fff; font-size: 3.5vw; }
+.ftrcrd {
+	margin-top: 30px;
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 2vw; 
+	color: rgba(255,255,255,0.7);
+	line-height: 100%;
+}
+.ftel {
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 32px; 
+	color: #fff;
+}
+.footermail {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 30px; 
+	color: #fff;
+	line-height: 100%;
+}
+img.footerlogo {width: 90%;}
+.wedeliverflex div {width: 45%;}
+
+}
+@media (min-width: 900px) {
+img.toplogo {width: 26%; margin: 34px 20px 29px 90px;}
+.telflex {display: flex; flex-direction: row-reverse; justify-content: flex-start; align-items: center; font-family: Avenir Black, sans-serif; color: #fff; font-size: 1.8vw; }
+.ftrcrd {
+	margin-top: 30px;
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 28px; 
+	color: rgba(255,255,255,0.7);
+	line-height: 100%;
+}
+.ftel {
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 42px; 
+	color: #fff;
+}
+.footermail {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 34px; 
+	color: #fff;
+	line-height: 100%;
+}
+img.footerlogo {width: 30%;}
+.wedeliverflex div {width: 32%;}
+}
