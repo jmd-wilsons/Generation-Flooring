@@ -11,7 +11,7 @@ img {display: block;}
 
 
 .envelope {width: 100%; max-width: 40px; margin: 0 30px 0 30px;}
-.sffd {background-image: url('../images/generation-flooring-room-set-laminate.jpg'); background-size: 100% auto; display: flex; align-items: center; justify-content: center; background-repeat: no-repeat;}
+
 
 .deliver {
 	padding: 65px 0;
@@ -32,12 +32,19 @@ img {display: block;}
 
 }
 .commitment {
-	padding: 6px 0;
+	padding: 30px 0;
 	margin: 0;
 	text-align: center;
-	font-family: 'AvenirRoman', sans-serif; 
+	font-family: 'Avenir Roman', sans-serif; 
 }
-
+.commitment h3 {
+	color: #002743;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-family: 'Avenir Black', sans-serif; 
+	font-weight: normal;
+}
 .hgv {width: 100%;}
 .image2flex {
 	display: flex;
@@ -54,12 +61,11 @@ img {display: block;}
 	text-align: center;
 	}
 .wedeliver h2 {
-	text-align: left; 
+	text-align: center; 
 	font-size: 6vw; 
 	line-height: 100%;
 	font-family: 'Avenir Black', sans-serif; 
 	color: #fff;
-	padding-left: 90px;
 }
 .wedeliverflex {
 	display: flex;
@@ -71,26 +77,25 @@ img {display: block;}
 }
 
 .wedeliverflex img {width: 100%;}
-.footer {
-	padding: 80px 60px;
-	background-image: url(../images/generation-flooring-circle-logo.png);
-	background-repeat: no-repeat;
-	background-position: 110% -40%;
-	background-size: 600px 600px;
-	font-family: 'Avenir Roman', sans-serif; 
-	font-size: 30px; 
-	color: #fff;
-	line-height: 100%;
-}
+
 .footermail img {width: 50px; height: 40px;}
 .fenvelope {width: 35px; margin: 0 25px 0 30px;}
 @media (max-width: 900px) {
 img.toplogo {width: 50%; margin: 34px auto 29px auto;}
+.sffd {
+	background-image: url('../images/generation-flooring-room-set-laminate-full.jpg'); 
+	background-size: 100% auto; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	background-repeat: no-repeat;
+	background-position: top;
+	}
 .sffd h1 {
-	margin: 10% auto 3%;
+	margin: 32% auto 4%;
 	color: #fff;
 	font-family: 'Avenir Black', sans-serif;
-	font-size: 5.2vw;
+	font-size: 6.5vw;
 	text-align: center;
 	line-height: 110%;
 	text-shadow: 1px 1px 3px #666;
@@ -106,7 +111,7 @@ img.toplogo {width: 50%; margin: 34px auto 29px auto;}
 }
 .telflex {display: flex; flex-direction: row-reverse; justify-content: flex-start; align-items: center; font-family: Avenir Black, sans-serif; color: #fff; font-size: 3.5vw; }
 .ftrcrd {
-	margin-top: 36px;
+	margin-top: 30px;
 	font-family: 'Avenir Roman', sans-serif; 
 	font-size: 3vw; 
 	color: rgba(255,255,255,0.7);
@@ -135,11 +140,31 @@ img.footerlogo {width: 90%;}
 	color: #fff;
 	margin: 0;
 	}
+.footer {
+	padding: 75px 30px 95px 60px;
+	background-image: url(../images/generation-flooring-circle-logo.png);
+	background-repeat: no-repeat;
+	background-position: -5% 120%;
+	background-size: 30vw 30vw;
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 30px; 
+	color: #fff;
+	line-height: 100%;
+}
 }
 @media (min-width: 900px) {
 img.toplogo {width: 24%; margin: 28px 20px 24px 90px;}
 .telflex {display: flex; flex-direction: row-reverse; justify-content: flex-start; align-items: center; font-family: Avenir Black, sans-serif; color: #fff; font-size: 1.3vw; padding: 15px 5px;}
 .telflex p {margin: 0;}
+.sffd {
+	background-image: url('../images/generation-flooring-room-set-laminate-full.jpg'); 
+	background-size: 100% auto; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	background-repeat: no-repeat;
+	background-position: 0% 75%;
+	}
 .sffd h1 {
 	margin: 13% auto 3%;
 	color: #fff;
@@ -150,7 +175,7 @@ img.toplogo {width: 24%; margin: 28px 20px 24px 90px;}
 	text-shadow: 1px 1px 3px #666;
 }
 .commitment p {
-	margin: 30px auto;
+	margin: 5px auto;
 	width: 70%;
 	text-align: center;
 	line-height: 180%;
@@ -159,7 +184,7 @@ img.toplogo {width: 24%; margin: 28px 20px 24px 90px;}
 	font-size: 22px;
 }
 .ftrcrd {
-	margin-top: 38px;
+	margin-top: 34px;
 	margin-bottom: 10x;
 	font-family: 'Avenir Roman', sans-serif; 
 	font-size: 26px; 
@@ -189,4 +214,15 @@ img.footerlogo {width: 25%;}
 	color: #fff;
 	margin: 0;
 	}
+.footer {
+	padding: 80px 60px;
+	background-image: url(../images/generation-flooring-circle-logo.png);
+	background-repeat: no-repeat;
+	background-position: 110% -40%;
+	background-size: 40vw 40vw;
+	font-family: 'Avenir Roman', sans-serif; 
+	font-size: 30px; 
+	color: #fff;
+	line-height: 100%;
+}
 }
