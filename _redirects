@@ -7,4 +7,5 @@
 /checkout/cart/    /
 /customer/account/login/    / 
 /catalog/seo_sitemap/category/    /
-/*    /
+/index.html    /
+/*    /index.html
